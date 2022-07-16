@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+--Red: hsl(0, 100%, 74%); 
+--Green: hsl(154, 59%, 51%);
+--Blue: hsl(248, 32%, 49%);
+--Dark-Blue: hsl(249, 10%, 26%) ;
+--Grayish-Blue: hsl(246, 25%, 77%);
+--white : #fff;
+}
+html , body {
+    overflow-x: hidden;
+    background-color: var(--Red);
+    height: auto;
+    background-repeat: no-repeat;
+    background-image: url(./images/bg-intro-desktop.png);
+  padding: 40px 0;
+    
+}
+h1 {
+ color: var(--white);
+    font-size: 40px;
+    
+}
+.lead {
+    font-size: 16px;
+    color: #fff;
+    padding-top: 23px;
+    
+}
+.anchor {
+    width: 420px;
+}
+.free {
+    background-color: var(--Blue);
+    padding: 15px 0px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0 rgba(0, 0, 0, 0.15);
+}
+.box {
+    box-shadow: 0px 6px 0 rgba(0, 0, 0, 0.2); 
+}
+h5 span {
+    font-size: 11px;
+    font-weight: 500;
+}
+::placeholder {
+    
+    font-size: 12px;
+    font-weight: 700;
+   
+}
+.invalid-feedback  {
+    text-align: end;
+    font-size: 11px;
+}
+.button {
+    background-color: var(--Green);
+    color: #fff;
+    border: none;
+    outline: none;
+   padding: 9px 0px;
+   width: 100%;
+   margin-top: 15px;
+   border-radius: 5px;
+   font-size: 12px;
+   font-weight: 600;
+   cursor: pointer;
+   transition: all .3s ease-in-out;
+}
+.button:hover {
+background-color:  hsla(154, 59%, 51%,0.8);
+}
+h6 {
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: var(--Grayish-Blue);
+}
+.highlight {
+    color: var(--Red);
+    font-weight: 700;
+}
+.attribution {
+    padding-top: 90px;
+    font-size: 16px;
+}
+@media screen and (max-width:768px) {
+   
+ .text {
+        text-align: center;
+    }
+}
